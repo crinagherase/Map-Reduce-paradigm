@@ -1,0 +1,19 @@
+Tema 1 APD Gherase Crina-Andreea 332CC
+Functia Mapper primeste ca argument o structura ce contine
+o coada cu numele fisierelor din care se va face citirea,
+exponentul maxim pana la care trebuie sa se faca verificarea
+si un map ce are exponentul curent ca si cheie si pentru
+fiecare cheie un vector in care se pun numerele puteri perfecte
+ale acelui exponent. Verificarea daca un numar este putere perfecta
+se face in functia isPower printr-o cautare binara. Daca mijlocul
+ridicat la puterea "power" este mai mare decat n atunci se continua
+cautarea in partea stanga. Daca este mai mic atunci se cauta in
+partea dreapta si daca este fix mijlocul atunci se returneaza
+numarul.
+Functia Reducer primeste ca argument o structura ce contine
+toate map-urile, exponentul curent si numarul de thread-uri
+de tip mapper. Introduce toate numerele corespunzatoare unui
+exponent intr-un set pentru a elimina duplicatele si scrie in
+fisierul de iesire size-ul setului.
+In main se initializeaza toate structurile folosite si se citeste
+primul fisier (care contine numarul de fisiere si numele acestora).
